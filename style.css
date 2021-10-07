@@ -6,14 +6,14 @@
        }*/
  
        .header {
-           background-color:yellow;
+           background-color:black;
            display:flex;
-           justify-content: space-between;
+           justify-content: space-evenly;
        }
        .grid {
            display: flex;
            flex-wrap:wrap ;
-           justify-content: space-evenly;
+           justify-content: space-between;
 
        }
        
@@ -21,7 +21,10 @@
            display: flex;
            justify-content: flex-end;
        }
-
        p,h2{
-           text-align: : center;
-       }
+        text-align:  center;
+    }
+
+      body {
+          background-color:rgb(229, 245, 7);
+      }
